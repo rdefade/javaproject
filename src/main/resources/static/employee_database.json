@@ -7,10 +7,10 @@
     "department" : "Engineering",
     "directReports" : [
       {
-        "employeeId" : "b7839309-3348-463b-a7e3-5de1c168beb3"
+        "employeeId" : "03aa1462-ffa9-4978-901b-7c001562cf6f"
       },
       {
-        "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f"
+        "employeeId": "b7839309-3348-463b-a7e3-5de1c168beb3"
       }
     ]
   },
