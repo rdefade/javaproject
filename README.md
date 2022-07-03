@@ -21,10 +21,6 @@ The following endpoints are available to use:
     * URL: localhost:8080/employee/{id}
     * RESPONSE: Employee
 
-    * HTTP Method: GET
-    * URL: localhost:8080/employee/reporting-structure/{id}
-    * RESPONSE: ReportingStructure
-
 * UPDATE
     * HTTP Method: PUT 
     * URL: localhost:8080/employee/{id}
@@ -82,7 +78,7 @@ This new type should have a new REST endpoint created for it. This new endpoint 
 the fully filled out ReportingStructure for the specified employeeId. The values should be computed on the fly and will 
 not be persisted.
 
-###RJD Solution
+### RJD Solution
 Added new endpoint to the EmployeeController.  This could also have been put in to a separate controller, but seemed to make sense to just use the existing controller since we need to make use of the EmployeeService.
 
 * READ
